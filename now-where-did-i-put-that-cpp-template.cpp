@@ -1,3 +1,4 @@
+#include <cassert>
 #include <iostream>
 using namespace std;
 
@@ -28,5 +29,5 @@ int find(string search, string substring) {
 }
 
 int main() {
-    
+    assert(find("apple", "a") == 0);
 }
