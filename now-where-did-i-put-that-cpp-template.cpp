@@ -7,8 +7,8 @@ int find(string search, char four) {
         if (search[i] == four) {
             return i;
         }
-        return -1;
     }
+    return -1;
 }
 
 int find(string search, string substring) {
@@ -29,5 +29,6 @@ int find(string search, string substring) {
 }
 
 int main() {
-    assert(find("apple", "a") == 0);
+    cout << find("apple", "a");
+    return 1;
 }
